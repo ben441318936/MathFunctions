@@ -17,14 +17,19 @@ public class MathFunctions extends PApplet {
 public void setup()
 {
 	//examples
+	println("Set 1");
 	println(lcosAngleSSS(1,0.5f,Math.sqrt(3)/2));
 	printlcosAngleSSS(1,0.5f,Math.sqrt(3)/2);
+	println("Set 2");
 	println(lcosSideSAS(0.5f,90,Math.sqrt(3)/2));
 	printlcosSideSAS(0.5f,90,Math.sqrt(3)/2);
-	println(lcosSideASS(30,1,0.5f));
-	printlcosSideASS(30,1,0.5f);
+	println("Set 3");
+	println(lcosSideASS(90,0.5f,1));
+	printlcosSideASS(90,0.5f,1);
+	println("Set 4");
 	println(lsinSideAAS(90,60,1));
-	printlsinSideAAS(99,60,1);
+	printlsinSideAAS(90,60,1);
+	println("Set 5");
 	println(lsinSideASA(30,1,60));
 	printlsinSideASA(30,1,60);
 }

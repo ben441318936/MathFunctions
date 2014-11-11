@@ -1,17 +1,21 @@
 void setup()
 {
-	/*examples
+	//examples
+	println("Set 1");
 	println(lcosAngleSSS(1,0.5,Math.sqrt(3)/2));
 	printlcosAngleSSS(1,0.5,Math.sqrt(3)/2);
+	println("Set 2");
 	println(lcosSideSAS(0.5,90,Math.sqrt(3)/2));
 	printlcosSideSAS(0.5,90,Math.sqrt(3)/2);
-	println(lcosSideASS(30,1,0.5));
-	printlcosSideASS(30,1,0.5);
+	println("Set 3");
+	println(lcosSideASS(90,0.5,1));
+	printlcosSideASS(90,0.5,1);
+	println("Set 4");
 	println(lsinSideAAS(90,60,1));
-	printlsinSideAAS(99,60,1);
+	printlsinSideAAS(90,60,1);
+	println("Set 5");
 	println(lsinSideASA(30,1,60));
 	printlsinSideASA(30,1,60);
-	*/
 }
 //trigonometry
 double lcosAngleSSS(double a, double b, double c) //using Law of Cosine to find missing angle A
