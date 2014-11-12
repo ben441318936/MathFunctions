@@ -20,9 +20,11 @@ public void setup()
 	println("Set 1");
 	println(lcosAngleSSS(1,0.5f,Math.sqrt(3)/2));
 	printlcosAngleSSS(1,0.5f,Math.sqrt(3)/2);
+	printlcosAngleSSS(41,428.510f,400);
 	println("Set 2");
 	println(lcosSideSAS(0.5f,90,Math.sqrt(3)/2));
 	printlcosSideSAS(0.5f,90,Math.sqrt(3)/2);
+	printlcosSideSAS(206.457f,25,336.906f);
 	println("Set 3");
 	println(lcosSideASS(90,0.5f,1));
 	printlcosSideASS(90,0.5f,1);
@@ -32,6 +34,7 @@ public void setup()
 	println("Set 5");
 	println(lsinSideASA(30,1,60));
 	printlsinSideASA(30,1,60);
+	printlsinSideASA(66,150,90);
 }
 //trigonometry
 public double lcosAngleSSS(double a, double b, double c) //using Law of Cosine to find missing angle A
