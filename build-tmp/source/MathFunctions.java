@@ -37,19 +37,21 @@ public void setup()
 	*/
 
 	/*
-	trig cheat engine v2.0
-	enter the code in this format: LCosAndLSin("type (SSS, SAS, etc)", side a, side b, side c, angle A, angle B, angle C); 
-	only enter givens applicable to the particular type e.g. when using 
-	enter 0 for unknown values
-	 */
-	println("test 1"); println(" ");   /* change this part only >>*/ LCosAndLSin("SSS",1,Math.sqrt(3)/2,0.5f,0,0,0);  /*<< change this part only*/   println(" "); 
-	println("test 2"); println(" ");   /* change this part only >>*/ LCosAndLSin("SAS",1,Math.sqrt(3)/2,0,0,0,30);   /*<< change this part only*/   println(" ");
-	println("test 0"); println(" ");   /* change this part only >>*/ LCosAndLSin("ASS",1,0,0.5f,0,0,30);              /*<< change this part only*/   println(" ");
-	println("test 1"); println(" ");   /* change this part only >>*/ LCosAndLSin("ASS",1,0,0.5f,90,0,0);              /*<< change this part only*/   println(" ");
-	println("test 2"); println(" ");   /* change this part only >>*/ LCosAndLSin("ASS",0,Math.sqrt(3)/2,0.5f,0,0,30); /*<< change this part only*/   println(" ");
-	println("test 3"); println(" ");   /* change this part only >>*/ LCosAndLSin("ASS",0,Math.sqrt(3)/2,0.5f,0,60,0); /*<< change this part only*/   println(" ");
-	println("test 4"); println(" ");   /* change this part only >>*/ LCosAndLSin("ASS",1,Math.sqrt(3)/2,0,90,0,0);   /*<< change this part only*/   println(" ");
-	println("test 5"); println(" ");   /* change this part only >>*/ LCosAndLSin("ASS",1,Math.sqrt(3)/2,0,0,60,0);   /*<< change this part only*/   println(" ");
+	Trig Cheat Engine v2.0
+	Enter the code in this format: LCosAndLSin("type (SSS, SAS, etc)", side a, side b, side c, angle A, angle B, angle C); 
+	Only enter givens applicable to the particular type. For example, if using ASS, do not give more than two sides and more than one angle. 
+	Set up your triangle correctly and choose the arguments accordingly.
+	Enter 0 for unknown values.
+	*/
+	// println("test 1"); println(" ");   /* change this part only >>*/ LCosAndLSin("SSS",1,Math.sqrt(3)/2,0.5,0,0,0);  /*<< change this part only*/   println(" "); 
+	// println("test 2"); println(" ");   /* change this part only >>*/ LCosAndLSin("SAS",1,Math.sqrt(3)/2,0,0,0,30);   /*<< change this part only*/   println(" ");
+	// println("test 0"); println(" ");   /* change this part only >>*/ LCosAndLSin("ASS",1,0,0.5,0,0,30);              /*<< change this part only*/   println(" ");
+	// println("test 1"); println(" ");   /* change this part only >>*/ LCosAndLSin("ASS",1,0,0.5,90,0,0);              /*<< change this part only*/   println(" ");
+	// println("test 2"); println(" ");   /* change this part only >>*/ LCosAndLSin("ASS",0,Math.sqrt(3)/2,0.5,0,0,30); /*<< change this part only*/   println(" ");
+	// println("test 3"); println(" ");   /* change this part only >>*/ LCosAndLSin("ASS",0,Math.sqrt(3)/2,0.5,0,60,0); /*<< change this part only*/   println(" ");
+	// println("test 4"); println(" ");   /* change this part only >>*/ LCosAndLSin("ASS",1,Math.sqrt(3)/2,0,90,0,0);   /*<< change this part only*/   println(" ");
+	// println("test 5"); println(" ");   /* change this part only >>*/ LCosAndLSin("ASS",1,Math.sqrt(3)/2,0,0,60,0);   /*<< change this part only*/   println(" ");
+	LCosAndLSin("SSS",3,6,4,0,0,0);
 }
 //trigonometry
 public double lcosAngleSSS(double a, double b, double c) //using Law of Cosine to find missing angle A

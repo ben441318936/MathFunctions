@@ -26,15 +26,16 @@ void setup()
 	Only enter givens applicable to the particular type. For example, if using ASS, do not give more than two sides and more than one angle. 
 	Set up your triangle correctly and choose the arguments accordingly.
 	Enter 0 for unknown values.
-	 */
-	println("test 1"); println(" ");   /* change this part only >>*/ LCosAndLSin("SSS",1,Math.sqrt(3)/2,0.5,0,0,0);  /*<< change this part only*/   println(" "); 
-	println("test 2"); println(" ");   /* change this part only >>*/ LCosAndLSin("SAS",1,Math.sqrt(3)/2,0,0,0,30);   /*<< change this part only*/   println(" ");
-	println("test 0"); println(" ");   /* change this part only >>*/ LCosAndLSin("ASS",1,0,0.5,0,0,30);              /*<< change this part only*/   println(" ");
-	println("test 1"); println(" ");   /* change this part only >>*/ LCosAndLSin("ASS",1,0,0.5,90,0,0);              /*<< change this part only*/   println(" ");
-	println("test 2"); println(" ");   /* change this part only >>*/ LCosAndLSin("ASS",0,Math.sqrt(3)/2,0.5,0,0,30); /*<< change this part only*/   println(" ");
-	println("test 3"); println(" ");   /* change this part only >>*/ LCosAndLSin("ASS",0,Math.sqrt(3)/2,0.5,0,60,0); /*<< change this part only*/   println(" ");
-	println("test 4"); println(" ");   /* change this part only >>*/ LCosAndLSin("ASS",1,Math.sqrt(3)/2,0,90,0,0);   /*<< change this part only*/   println(" ");
-	println("test 5"); println(" ");   /* change this part only >>*/ LCosAndLSin("ASS",1,Math.sqrt(3)/2,0,0,60,0);   /*<< change this part only*/   println(" ");
+	*/
+	// println("test 1"); println(" ");   /* change this part only >>*/ LCosAndLSin("SSS",1,Math.sqrt(3)/2,0.5,0,0,0);  /*<< change this part only*/   println(" "); 
+	// println("test 2"); println(" ");   /* change this part only >>*/ LCosAndLSin("SAS",1,Math.sqrt(3)/2,0,0,0,30);   /*<< change this part only*/   println(" ");
+	// println("test 0"); println(" ");   /* change this part only >>*/ LCosAndLSin("ASS",1,0,0.5,0,0,30);              /*<< change this part only*/   println(" ");
+	// println("test 1"); println(" ");   /* change this part only >>*/ LCosAndLSin("ASS",1,0,0.5,90,0,0);              /*<< change this part only*/   println(" ");
+	// println("test 2"); println(" ");   /* change this part only >>*/ LCosAndLSin("ASS",0,Math.sqrt(3)/2,0.5,0,0,30); /*<< change this part only*/   println(" ");
+	// println("test 3"); println(" ");   /* change this part only >>*/ LCosAndLSin("ASS",0,Math.sqrt(3)/2,0.5,0,60,0); /*<< change this part only*/   println(" ");
+	// println("test 4"); println(" ");   /* change this part only >>*/ LCosAndLSin("ASS",1,Math.sqrt(3)/2,0,90,0,0);   /*<< change this part only*/   println(" ");
+	// println("test 5"); println(" ");   /* change this part only >>*/ LCosAndLSin("ASS",1,Math.sqrt(3)/2,0,0,60,0);   /*<< change this part only*/   println(" ");
+	LCosAndLSin("SSS",3,6,4,0,0,0);
 }
 //trigonometry
 double lcosAngleSSS(double a, double b, double c) //using Law of Cosine to find missing angle A
@@ -125,7 +126,7 @@ public void LCosAndLSin(String type, double a, double b, double c, double A, dou
 		angleC=Math.toDegrees(Math.acos((Math.pow(sidec,2)-Math.pow(sidea,2)-Math.pow(sideb,2))/(-2.0*sideb*sidea)));
 		area=sidec*sidea*Math.sin(Math.toRadians(angleB))/2;
 		println("side a: "+sidea);   println("side b: "+sideb);   println("side c: "+sidec);
-		println("angle A: "+angleA); println("angle B: "+angleB); println("angl eC: "+angleC);
+		println("angle A: "+angleA); println("angle B: "+angleB); println("angle C: "+angleC);
 		println("area: "+area);
 	}
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
